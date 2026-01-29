@@ -21,7 +21,7 @@ pip install -r backend/requirements.txt
 4.	Initialize the database (if applicable):
 python backend/create_db.py
 5.	Start the backend server:
-uvicorn backend.main:app --reload
+uvicorn main:app --reload
 Backend will run on: http://127.0.0.1:8000
 ________________________________________
 3. Frontend Setup
